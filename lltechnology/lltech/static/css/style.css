@@ -1,0 +1,168 @@
+body
+{
+    font-family: Times New Toman;
+    background-image: url("../images/wmbg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.header
+{
+    height:700px;
+    background: url("../images/wallpaper4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu
+{
+    height:70px;
+}
+
+.nav-link
+{
+    font-size: 25px;
+    margin-right:30px;
+}
+
+.slogan1
+{
+    margin-top: 15px;
+    font-size:70px;
+    font-family: Algerian;
+    color:black;
+}
+
+.slogan2
+{
+    color:#18d26e;
+    font-size:80px;
+}
+
+.name
+{
+    color:#18d26e;
+}
+
+.copyr
+{
+    color:#18d26e;
+}
+
+.bord-lef
+{
+    border-left:1px solid #18d26e;
+}
+
+.bord-rigt
+{
+    border-right:1px solid #18d26e;
+}
+
+.txt-box
+{
+    height:40px;
+    font-size:20px;
+}
+
+.txt-mess
+{
+    height:150px;
+    font-size:20px;
+}
+
+.submt
+{
+    background:#18d26e;
+    width:150px;
+    height:40px;
+    font-size:20px;
+}
+
+.heading
+{
+    font-weight:bold;
+    border-left:6px solid #18d26e;
+}
+
+.company-name
+{
+    font-weight:bold;
+    border-left:6px solid #18d26e;
+}
+
+.company
+{
+    font-weight:bold;
+    border-left: 6px solid #18d26e;
+    color:white;
+    font-size:23px;
+}
+
+.name-comp
+{
+color:#18d26e;
+}
+
+.about-com
+{
+font-size:20px;
+}
+
+.pro-img
+{
+    overflow:hidden;
+    transition: all 0.3s ease;
+}
+
+.pro-img:hover
+{
+    transform:scale(1.05);
+}
+
+.scal
+{
+    overflow:
+    transition: all 0.3s ease;
+}
+
+.scal:hover
+{
+    transform:scale(1.09);
+}
+
+#mySidenav a {
+margin-top:200px;
+  position: absolute;
+  left: -130px;
+  transition: 0.3s;
+  padding: 5px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#facebook {
+  top: 20px;
+  background-color: #4267B2;
+}
+
+#whatsapp {
+  top: 90px;
+  background-color: #25D366;
+}
+
+#youtube {
+  top: 160px;
+  background-color: #FF0000;
+}
+
+#insta {
+  top: 230px;
+  background-color: #8B0000;
+}

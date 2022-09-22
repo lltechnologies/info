@@ -1,0 +1,30 @@
+{% load static %}
+
+    <!--Header started-->
+  <div class="row mb-5">
+    <div class="col-sm-12 mb-5">
+      <nav class="navbar navbar-expand-lg bg-dark bg-opacity-75 fixed-top">
+        <div class="container">
+<a class="navbar-brand company ps-5 scal" href="{% url 'about' %}">LL TECHNOLOGIES</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white scal" aria-current="page" href="{% url 'index' %}"><i class="fa-solid fa-house-chimney "></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white scal" href="{% url 'contact' %}"><i class="fa-solid fa-phone"></i> Contact us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white scal" href="{% url 'about' %}"><i class="fa-solid fa-address-card"></i> About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+<!--header closed-->

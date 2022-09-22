@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Contact With LL Technologies
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4" align="center"><h1 class="heading mt-5">CONTACT US</h1></div>
+<div class="col-sm-4"></div>
+</div>
+
+
+<div class="row mt-5">
+
+<div class="col-sm-4" align="center">
+    <h1>Address</h1>
+    <span style="font-size:19px;">889 Paliwaal Diesel services ke bagal wali gali, Bila Road, Banda Chauraha, Kidwai Nagar Kabrai, Mahoba (U.P.), 210424</span>
+</div>
+
+<div class="col-sm-4 bord-lef bord-rigt" align="center">
+    <h1>Contact  Number</h1>
+    <span style="font-size:20px;"><i class="fa-solid fa-phone text-primary"></i>  +91 9935790781</span><br/>
+    <span style="font-size:20px;"><i class="fa-solid fa-phone text-primary"></i>  +91 7309858656</span><br/>
+    <span style="font-size:20px;"><i class="fa-brands fa-square-whatsapp text-success"></i>  +91 9935790781</span><br/>
+    <span style="font-size:20px;"><i class="fa-brands fa-square-whatsapp text-success"></i>  +91 7309858656</span><br/>
+</div>
+
+<div class="col-sm-4" align="center">
+    <h1>Email</h1>
+    <span style="font-size:20px;"><i class="fa-solid fa-envelope text-danger"></i>  lltechnologies.info@gmail.com</span>
+</div>
+</div>
+
+
+<div class="row mt-5">
+    <form action="{% url 'contact' %}" method="post">
+    {% csrf_token %}
+        <div class="row">
+            <div class="col-sm-6 mb-4"><input type="text" name="name" required placeholder="Enter Your Name" class="w-100 rounded-1 txt-box form-control"></div>
+            <div class="col-sm-6 mb-4"><input type="email" name="email" required placeholder="Enter Your Email" class="w-100 rounded-1 txt-box form-control"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 mb-4"><input type="text" name="contact" required placeholder="Enter Your Contact Number" class="w-100 rounded-1 txt-box form-control"></div>
+            <div class="col-sm-6 mb-4"><input type="text" name="subject" required placeholder="Enter Subject" class="w-100 rounded-1 txt-box form-control"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12"><textarea class="w-100 rounded-1 txt-mess form-control" name="message" required placeholder="Enter Your Message"></textarea></div>
+        </div>
+
+        <div class="row mt-4 mb-5" align="center">
+            <div class="col-sm-12"><button type="submit" class="submt rounded-1" align="center">Send Message</button></div>
+        </div>
+    </form>
+</div>
+</div>
+{% endblock %}
